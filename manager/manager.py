@@ -720,6 +720,127 @@ def delete_bulk_data(total: int = 50):
     log_event("DELETE_BULK_DATA", f"{deleted_count} data terakhir dihapus dari master dan shard")
     show_counts("SETELAH DELETE BULK")
 
+def sync_deleted_master_rows():
+
+    master_conn = connect_mysql(MASTER_HOST)
+
+    rows = fetchall(
+        master_conn,
+        """
+        SELECT
+            shard_map.data_id,
+            shard_map.shard_id
+        FROM shard_map
+        LEFT JOIN master_data
+            ON shard_map.data_id=master_data.id
+        WHERE master_data.id IS NULL
+        """
+    )
+
+    for data_id, shard_id in rows:
+
+        try:
+            delete_row_from_shard(shard_id, data_id)
+        except:
+            pass
+
+        execute(
+            master_conn,
+            "DELETE FROM shard_map WHERE data_id=%s",
+            (data_id,),
+        )
+
+        execute(
+            master_conn,
+            "DELETE FROM pending_sync WHERE data_id=%s",
+            (data_id,),
+        )
+
+    master_conn.close()
+
+def sync_new_master_rows():
+    """
+    Sinkronisasi data yang diinsert langsung ke master_data
+    agar otomatis masuk ke shard.
+    """
+
+    master_conn = connect_mysql(MASTER_HOST)
+
+    rows = fetchall(
+        master_conn,
+        """
+        SELECT
+            m.id,
+            m.nim,
+            m.nama,
+            m.prodi,
+            m.semester,
+            m.ipk,
+            m.alamat,
+            m.created_at
+        FROM master_data m
+        LEFT JOIN shard_map s
+            ON m.id = s.data_id
+        WHERE s.data_id IS NULL
+        ORDER BY m.id
+        """
+    )
+
+    if not rows:
+        master_conn.close()
+        return
+
+    active_shards = get_active_shards()
+
+    for row in rows:
+
+        data_id = row[0]
+
+        target_shard = ((data_id - 1) % TOTAL_SHARDS) + 1
+
+        if target_shard in active_shards:
+
+            upsert_row_to_shard(target_shard, row)
+
+            execute(
+                master_conn,
+                """
+                INSERT INTO shard_map(data_id, shard_id)
+                VALUES (%s,%s)
+                """,
+                (data_id, target_shard),
+            )
+
+        else:
+
+            execute(
+                master_conn,
+                """
+                INSERT INTO pending_sync(
+                    round_no,
+                    operation_type,
+                    data_id,
+                    target_shard_id,
+                    current_shard_id,
+                    detail
+                )
+                VALUES(
+                    0,
+                    'INSERT',
+                    %s,
+                    %s,
+                    NULL,
+                    %s
+                )
+                """,
+                (
+                    data_id,
+                    target_shard,
+                    f"Auto pending insert data {data_id}",
+                ),
+            )
+
+    master_conn.close()
 
 # ============================================================
 # AUTO SYNC PENDING SAAT SHARD HIDUP KEMBALI

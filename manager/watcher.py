@@ -56,6 +56,9 @@ def watch_shards():
 
             except Exception as e:
                 print(f"Watcher error pada Shard {shard_id}: {e}", flush=True)
+                
+        manager.sync_new_master_rows()
+        manager.sync_deleted_master_rows()        
 
         time.sleep(CHECK_INTERVAL)
 

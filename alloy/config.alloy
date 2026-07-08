@@ -1,0 +1,29 @@
+// Menemukan semua container Docker yang sedang berjalan
+discovery.docker "containers" {
+  host = "unix:///var/run/docker.sock"
+}
+
+// Memberi label "container" pada setiap target berdasarkan nama container Docker
+discovery.relabel "containers" {
+  targets = discovery.docker.containers.targets
+
+  rule {
+    source_labels = ["__meta_docker_container_name"]
+    regex          = "/(.*)"
+    target_label   = "container"
+  }
+}
+
+// Membaca log dari setiap container yang terdeteksi
+loki.source.docker "default" {
+  host       = "unix:///var/run/docker.sock"
+  targets    = discovery.relabel.containers.output
+  forward_to = [loki.write.default.receiver]
+}
+
+// Mengirim log ke Loki
+loki.write "default" {
+  endpoint {
+    url = "http://loki:3100/loki/api/v1/push"
+  }
+}

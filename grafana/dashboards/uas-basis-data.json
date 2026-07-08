@@ -1,0 +1,107 @@
+{
+  "id": null,
+  "uid": "uas-basis-data-terdistribusi",
+  "title": "UAS Basis Data Terdistribusi",
+  "tags": ["uas", "basis-data-terdistribusi"],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "5s",
+  "time": { "from": "now-15m", "to": "now" },
+  "panels": [
+    {
+      "id": 1,
+      "title": "Total Data di Master",
+      "type": "stat",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 0, "y": 0, "w": 6, "h": 4 },
+      "targets": [
+        { "expr": "uts_master_total_rows", "refId": "A" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Total Data Master Visualisasi",
+      "type": "timeseries",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 6, "y": 0, "w": 18, "h": 8 },
+      "targets": [
+        { "expr": "uts_master_total_rows", "refId": "A" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Total Data per Shard",
+      "type": "bargauge",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 0, "y": 8, "w": 12, "h": 8 },
+      "targets": [
+        { "expr": "uts_shard_total_rows", "legendFormat": "Shard {{shard_id}}", "refId": "A" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Status Shard (1=hidup, 0=mati)",
+      "type": "bargauge",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 12, "y": 8, "w": 12, "h": 8 },
+      "fieldConfig": {
+        "defaults": {
+          "max": 1,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "red", "value": null },
+              { "color": "green", "value": 1 }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "targets": [
+        { "expr": "uts_shard_up", "legendFormat": "Shard {{shard_id}}", "refId": "A" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pending Sync",
+      "type": "stat",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 0, "y": 16, "w": 6, "h": 4 },
+      "targets": [
+        { "expr": "uts_pending_sync_unsynced", "refId": "A" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Pending Sync Visualisasi",
+      "type": "timeseries",
+      "datasource": "Prometheus",
+      "gridPos": { "x": 6, "y": 16, "w": 18, "h": 8 },
+      "targets": [
+        { "expr": "uts_pending_sync_unsynced", "refId": "A" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Log Deteksi Shard",
+      "type": "logs",
+      "datasource": "Loki",
+      "gridPos": { "x": 0, "y": 24, "w": 12, "h": 10 },
+      "targets": [
+        { "expr": "{container=\"utsbtd-watcher\"} |= \"DETEKSI\"", "refId": "A" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Log Redistribusi",
+      "type": "logs",
+      "datasource": "Loki",
+      "gridPos": { "x": 12, "y": 24, "w": 12, "h": 10 },
+      "targets": [
+        { "expr": "{container=\"utsbtd-watcher\"} |= \"REDISTRIBUSI\"", "refId": "A" }
+      ]
+    }
+  ]
+}

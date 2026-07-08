@@ -1,0 +1,501 @@
+nim,nama,prodi,semester,ipk,alamat,shard_id
+23201001,I Made Wijaya,Sistem Informasi,8,3.15,Bangli,1
+23401001,Ketut Winata,Rekayasa Perangkat Lunak,2,3.2,Gianyar,1
+23101001,Kadek Mahendra,Pendidikan Teknik Informatika,8,2.7,Jembrana,1
+23201002,Made Pramesti,Sistem Informasi,6,3.26,Bangli,1
+23101002,Luh Saputra,Pendidikan Teknik Informatika,2,3.63,Tabanan,1
+23101003,Desak Putra,Pendidikan Teknik Informatika,8,3.12,Tabanan,1
+23301001,Desak Dharma,Ilmu Komputer,4,3.24,Karangasem,1
+23201003,Made Lestari,Sistem Informasi,6,3.22,Buleleng,1
+23101004,Kadek Putra,Pendidikan Teknik Informatika,4,3.25,Bangli,1
+23301002,Ni Luh Kusuma,Ilmu Komputer,8,3.57,Jembrana,1
+23401002,Ni Luh Lestari,Rekayasa Perangkat Lunak,2,3.07,Bangli,1
+23401003,I Wayan Arya,Rekayasa Perangkat Lunak,6,2.99,Gianyar,1
+23101005,I Putu Adi Saputra,Pendidikan Teknik Informatika,2,3.02,Klungkung,1
+23201004,Luh Pratama,Sistem Informasi,8,3.23,Gianyar,1
+23401004,Putu Susanti,Rekayasa Perangkat Lunak,8,3.22,Badung,1
+23101006,Made Adi Saputra,Pendidikan Teknik Informatika,2,3.7,Gianyar,1
+23301003,I Putu Wahyuni,Ilmu Komputer,8,2.76,Gianyar,1
+23201005,Ni Kadek Wijaya,Sistem Informasi,8,2.87,Klungkung,1
+23201006,Made Wahyuni,Sistem Informasi,6,3.93,Klungkung,1
+23301004,Luh Wahyuni,Ilmu Komputer,8,3.77,Jembrana,1
+23401005,Ni Luh Lestari,Rekayasa Perangkat Lunak,8,3.28,Gianyar,1
+23301005,Ayu Suryawan,Ilmu Komputer,8,3.51,Tabanan,1
+23301006,Ni Luh Pratama,Ilmu Komputer,6,3.0,Bangli,1
+23401006,Komang Permana,Rekayasa Perangkat Lunak,2,2.88,Gianyar,1
+23101007,Ketut Dharma,Pendidikan Teknik Informatika,4,2.78,Karangasem,1
+23401007,Komang Permana,Rekayasa Perangkat Lunak,8,3.24,Gianyar,1
+23201007,Ayu Utami,Sistem Informasi,8,3.87,Buleleng,1
+23201008,Ayu Pradnyana,Sistem Informasi,8,3.32,Bangli,1
+23201009,Kadek Susanti,Sistem Informasi,8,3.39,Jembrana,1
+23201010,Gede Winata,Sistem Informasi,4,3.33,Tabanan,1
+23201011,Ketut Purnama,Sistem Informasi,2,3.2,Karangasem,1
+23201012,Putu Lestari,Sistem Informasi,8,3.89,Jembrana,1
+23201013,I Made Susanti,Sistem Informasi,2,2.81,Karangasem,1
+23101008,I Putu Kusuma,Pendidikan Teknik Informatika,4,2.76,Karangasem,1
+23301007,Komang Pramesti,Ilmu Komputer,8,3.12,Karangasem,1
+23101009,Kadek Utami,Pendidikan Teknik Informatika,6,3.78,Klungkung,1
+23401008,I Made Permana,Rekayasa Perangkat Lunak,2,3.99,Bangli,1
+23101010,I Gede Pratama,Pendidikan Teknik Informatika,2,3.67,Gianyar,1
+23201014,I Gede Adi Saputra,Sistem Informasi,4,3.01,Klungkung,1
+23201015,Made Wijaya,Sistem Informasi,4,3.3,Tabanan,1
+23301008,Gede Ardana,Ilmu Komputer,4,3.48,Denpasar,1
+23201016,Gede Lestari,Sistem Informasi,6,2.84,Buleleng,1
+23201017,Ni Kadek Putra,Sistem Informasi,8,3.21,Gianyar,1
+23201018,I Wayan Pradnyana,Sistem Informasi,4,2.83,Tabanan,1
+23401009,Ayu Winata,Rekayasa Perangkat Lunak,2,3.73,Buleleng,1
+23201019,Komang Permana,Sistem Informasi,8,3.55,Denpasar,1
+23201020,Desak Saputra,Sistem Informasi,2,3.8,Klungkung,1
+23301009,I Wayan Utami,Ilmu Komputer,6,3.52,Klungkung,1
+23201021,Putu Dharma,Sistem Informasi,8,2.93,Jembrana,1
+23201022,Made Suryawan,Sistem Informasi,8,3.3,Tabanan,1
+23101011,Komang Arya,Pendidikan Teknik Informatika,2,3.06,Klungkung,1
+23101012,I Gede Kusuma,Pendidikan Teknik Informatika,8,3.13,Klungkung,1
+23401010,Ayu Saputra,Rekayasa Perangkat Lunak,4,3.33,Bangli,1
+23301010,Gede Suryawan,Ilmu Komputer,6,3.06,Tabanan,1
+23101013,Desak Adi Saputra,Pendidikan Teknik Informatika,4,2.81,Karangasem,1
+23201023,Ni Luh Permana,Sistem Informasi,4,3.59,Klungkung,1
+23301011,Ni Luh Adi Saputra,Ilmu Komputer,2,3.08,Karangasem,1
+23201024,Putu Arya,Sistem Informasi,6,3.56,Bangli,1
+23101014,Ni Luh Permana,Pendidikan Teknik Informatika,6,3.25,Jembrana,1
+23301012,Komang Ardana,Ilmu Komputer,8,3.05,Tabanan,1
+23201025,I Gede Wijaya,Sistem Informasi,4,3.11,Jembrana,1
+23301013,Gede Lestari,Ilmu Komputer,4,2.98,Klungkung,1
+23101015,Kadek Pradnyana,Pendidikan Teknik Informatika,6,3.96,Gianyar,1
+23201026,Kadek Arya,Sistem Informasi,6,2.93,Buleleng,1
+23101016,Putu Permana,Pendidikan Teknik Informatika,4,3.05,Buleleng,1
+23101017,Desak Putra,Pendidikan Teknik Informatika,4,3.52,Klungkung,1
+23301014,I Wayan Adi Saputra,Ilmu Komputer,6,3.31,Klungkung,1
+23201027,Komang Lestari,Sistem Informasi,2,3.03,Klungkung,1
+23301015,I Wayan Pratama,Ilmu Komputer,8,3.33,Buleleng,1
+23401011,I Putu Dharma,Rekayasa Perangkat Lunak,6,2.81,Gianyar,1
+23101018,I Wayan Permana,Pendidikan Teknik Informatika,8,3.48,Gianyar,1
+23401012,Gede Wahyuni,Rekayasa Perangkat Lunak,8,3.28,Klungkung,1
+23301016,Kadek Pradnyana,Ilmu Komputer,8,3.09,Buleleng,1
+23301017,Luh Wijaya,Ilmu Komputer,4,3.51,Tabanan,1
+23401013,Made Pratama,Rekayasa Perangkat Lunak,4,3.01,Jembrana,1
+23401014,I Wayan Lestari,Rekayasa Perangkat Lunak,2,3.23,Klungkung,1
+23201028,Kadek Mahendra,Sistem Informasi,4,3.07,Tabanan,1
+23301018,Putu Kusuma,Ilmu Komputer,2,3.59,Tabanan,1
+23201029,Gede Pradnyana,Sistem Informasi,4,3.25,Jembrana,1
+23201030,I Gede Dharma,Sistem Informasi,6,3.77,Denpasar,1
+23101019,I Made Lestari,Pendidikan Teknik Informatika,6,3.47,Tabanan,1
+23101020,Ni Luh Wijaya,Pendidikan Teknik Informatika,8,3.59,Karangasem,1
+23401015,Kadek Wahyuni,Rekayasa Perangkat Lunak,8,3.26,Buleleng,1
+23201031,Ni Kadek Utami,Sistem Informasi,6,3.48,Buleleng,1
+23401016,I Wayan Arya,Rekayasa Perangkat Lunak,2,3.99,Tabanan,1
+23401017,Luh Mahendra,Rekayasa Perangkat Lunak,4,3.31,Klungkung,1
+23301019,Ni Kadek Suryawan,Ilmu Komputer,4,3.99,Karangasem,1
+23101021,Made Purnama,Pendidikan Teknik Informatika,2,3.31,Karangasem,1
+23401018,Komang Saputra,Rekayasa Perangkat Lunak,2,3.81,Bangli,1
+23101022,Ketut Purnama,Pendidikan Teknik Informatika,6,3.55,Karangasem,1
+23101023,Ayu Permana,Pendidikan Teknik Informatika,2,3.29,Bangli,1
+23201032,Kadek Saputra,Sistem Informasi,2,3.95,Karangasem,1
+23301020,Ayu Wahyuni,Ilmu Komputer,2,3.55,Jembrana,1
+23201033,Ni Luh Utami,Sistem Informasi,2,2.94,Bangli,1
+23201034,Luh Purnama,Sistem Informasi,8,3.68,Gianyar,1
+23101024,Kadek Permana,Pendidikan Teknik Informatika,4,3.9,Klungkung,1
+23101025,Ni Kadek Purnama,Pendidikan Teknik Informatika,2,2.74,Gianyar,1
+23401019,Putu Lestari,Rekayasa Perangkat Lunak,6,3.41,Jembrana,1
+23401020,Ketut Pratama,Rekayasa Perangkat Lunak,4,3.98,Denpasar,1
+23201035,Ni Luh Wijaya,Sistem Informasi,4,3.34,Tabanan,1
+23201036,Desak Suryawan,Sistem Informasi,8,3.78,Klungkung,2
+23301021,I Gede Kusuma,Ilmu Komputer,4,3.19,Jembrana,2
+23201037,Putu Dharma,Sistem Informasi,2,3.06,Karangasem,2
+23301022,Komang Wahyuni,Ilmu Komputer,6,3.76,Tabanan,2
+23101026,Putu Putra,Pendidikan Teknik Informatika,8,3.82,Klungkung,2
+23301023,Desak Purnama,Ilmu Komputer,6,3.13,Jembrana,2
+23201038,Ketut Kusuma,Sistem Informasi,6,3.82,Gianyar,2
+23401021,Luh Susanti,Rekayasa Perangkat Lunak,4,3.8,Karangasem,2
+23201039,I Made Saputra,Sistem Informasi,8,3.61,Karangasem,2
+23301024,Ketut Dharma,Ilmu Komputer,8,3.94,Badung,2
+23101027,Desak Pradnyana,Pendidikan Teknik Informatika,6,3.82,Klungkung,2
+23401022,I Wayan Wahyuni,Rekayasa Perangkat Lunak,8,2.72,Badung,2
+23101028,Ketut Dharma,Pendidikan Teknik Informatika,2,3.31,Tabanan,2
+23101029,Komang Winata,Pendidikan Teknik Informatika,8,3.54,Bangli,2
+23301025,Ayu Permana,Ilmu Komputer,8,3.93,Klungkung,2
+23401023,Ayu Permana,Rekayasa Perangkat Lunak,2,3.5,Gianyar,2
+23401024,Made Putra,Rekayasa Perangkat Lunak,4,3.66,Karangasem,2
+23201040,I Wayan Wijaya,Sistem Informasi,8,2.91,Tabanan,2
+23101030,Ni Kadek Adi Saputra,Pendidikan Teknik Informatika,2,3.12,Buleleng,2
+23201041,Kadek Ardana,Sistem Informasi,6,3.26,Gianyar,2
+23101031,Desak Utami,Pendidikan Teknik Informatika,4,2.92,Denpasar,2
+23301026,Luh Susanti,Ilmu Komputer,4,3.34,Badung,2
+23401025,I Gede Kusuma,Rekayasa Perangkat Lunak,6,3.29,Buleleng,2
+23201042,Ni Kadek Kusuma,Sistem Informasi,6,3.57,Badung,2
+23301027,I Wayan Kusuma,Ilmu Komputer,6,3.97,Tabanan,2
+23401026,Made Utami,Rekayasa Perangkat Lunak,6,3.29,Tabanan,2
+23301028,I Gede Susanti,Ilmu Komputer,8,2.84,Karangasem,2
+23201043,Luh Ardana,Sistem Informasi,6,3.98,Tabanan,2
+23201044,I Made Susanti,Sistem Informasi,6,2.71,Buleleng,2
+23301029,Ni Kadek Winata,Ilmu Komputer,8,3.77,Tabanan,2
+23301030,Gede Arya,Ilmu Komputer,6,2.98,Gianyar,2
+23101032,Luh Suryawan,Pendidikan Teknik Informatika,4,3.51,Buleleng,2
+23101033,Kadek Kusuma,Pendidikan Teknik Informatika,2,3.45,Badung,2
+23401027,I Wayan Putra,Rekayasa Perangkat Lunak,6,3.66,Badung,2
+23301031,I Gede Dharma,Ilmu Komputer,6,3.38,Tabanan,2
+23101034,Ayu Lestari,Pendidikan Teknik Informatika,6,3.88,Klungkung,2
+23301032,Gede Putra,Ilmu Komputer,6,3.74,Klungkung,2
+23301033,I Wayan Dharma,Ilmu Komputer,4,3.81,Karangasem,2
+23301034,Ayu Permana,Ilmu Komputer,6,2.82,Karangasem,2
+23401028,I Made Suryawan,Rekayasa Perangkat Lunak,2,3.29,Tabanan,2
+23201045,Luh Susanti,Sistem Informasi,6,2.84,Gianyar,2
+23401029,Ni Luh Adi Saputra,Rekayasa Perangkat Lunak,6,3.88,Gianyar,2
+23101035,Made Pratama,Pendidikan Teknik Informatika,8,3.87,Tabanan,2
+23201046,Made Utami,Sistem Informasi,2,2.88,Buleleng,2
+23201047,Kadek Purnama,Sistem Informasi,2,2.83,Jembrana,2
+23201048,I Putu Susanti,Sistem Informasi,8,3.18,Jembrana,2
+23401030,Ketut Pradnyana,Rekayasa Perangkat Lunak,4,3.84,Denpasar,2
+23301035,Ayu Purnama,Ilmu Komputer,8,3.91,Tabanan,2
+23301036,I Made Ardana,Ilmu Komputer,4,3.27,Gianyar,2
+23401031,Ayu Ardana,Rekayasa Perangkat Lunak,2,3.97,Bangli,2
+23201049,Desak Ardana,Sistem Informasi,2,3.21,Gianyar,2
+23201050,I Wayan Kusuma,Sistem Informasi,2,3.55,Buleleng,2
+23401032,I Made Saputra,Rekayasa Perangkat Lunak,4,3.98,Gianyar,2
+23301037,I Wayan Permana,Ilmu Komputer,4,3.46,Gianyar,2
+23301038,Komang Dharma,Ilmu Komputer,2,3.06,Badung,2
+23401033,I Putu Permana,Rekayasa Perangkat Lunak,6,3.73,Denpasar,2
+23301039,Made Adi Saputra,Ilmu Komputer,4,2.72,Gianyar,2
+23101036,Luh Saputra,Pendidikan Teknik Informatika,2,2.92,Buleleng,2
+23401034,I Putu Utami,Rekayasa Perangkat Lunak,2,3.66,Klungkung,2
+23101037,Ni Luh Ardana,Pendidikan Teknik Informatika,2,3.28,Gianyar,2
+23201051,Luh Mahendra,Sistem Informasi,6,3.29,Buleleng,2
+23201052,I Made Purnama,Sistem Informasi,8,3.25,Denpasar,2
+23301040,Ni Luh Kusuma,Ilmu Komputer,2,3.86,Bangli,2
+23301041,Luh Dharma,Ilmu Komputer,2,2.86,Jembrana,2
+23301042,Putu Saputra,Ilmu Komputer,8,3.98,Jembrana,2
+23301043,Kadek Kusuma,Ilmu Komputer,8,2.83,Denpasar,2
+23201053,Ayu Permana,Sistem Informasi,4,3.25,Gianyar,2
+23201054,Ketut Saputra,Sistem Informasi,8,3.21,Denpasar,2
+23401035,Komang Utami,Rekayasa Perangkat Lunak,6,3.56,Bangli,2
+23401036,I Putu Purnama,Rekayasa Perangkat Lunak,2,2.82,Denpasar,2
+23201055,I Wayan Utami,Sistem Informasi,2,3.66,Bangli,2
+23201056,Gede Dharma,Sistem Informasi,2,3.46,Jembrana,2
+23401037,Desak Saputra,Rekayasa Perangkat Lunak,2,3.23,Karangasem,2
+23101038,Ayu Mahendra,Pendidikan Teknik Informatika,6,3.47,Bangli,2
+23101039,I Wayan Pradnyana,Pendidikan Teknik Informatika,4,2.9,Klungkung,2
+23101040,I Gede Wijaya,Pendidikan Teknik Informatika,6,3.79,Bangli,2
+23301044,I Wayan Suryawan,Ilmu Komputer,4,3.74,Jembrana,2
+23101041,Gede Winata,Pendidikan Teknik Informatika,2,3.49,Tabanan,2
+23401038,I Made Lestari,Rekayasa Perangkat Lunak,6,3.61,Tabanan,2
+23401039,Ni Kadek Saputra,Rekayasa Perangkat Lunak,6,2.71,Badung,2
+23301045,Luh Susanti,Ilmu Komputer,2,2.88,Buleleng,2
+23201057,I Wayan Wahyuni,Sistem Informasi,4,3.19,Klungkung,2
+23201058,Komang Lestari,Sistem Informasi,6,3.1,Bangli,2
+23401040,Gede Pradnyana,Rekayasa Perangkat Lunak,2,3.84,Badung,2
+23401041,I Putu Winata,Rekayasa Perangkat Lunak,2,3.57,Tabanan,2
+23101042,Ni Luh Utami,Pendidikan Teknik Informatika,8,3.48,Karangasem,2
+23101043,Kadek Pramesti,Pendidikan Teknik Informatika,2,3.15,Denpasar,2
+23401042,Kadek Pradnyana,Rekayasa Perangkat Lunak,8,3.38,Tabanan,2
+23101044,I Made Arya,Pendidikan Teknik Informatika,8,3.97,Buleleng,2
+23201059,I Made Pramesti,Sistem Informasi,6,3.92,Badung,2
+23301046,Gede Suryawan,Ilmu Komputer,6,3.12,Buleleng,2
+23301047,Ni Luh Utami,Ilmu Komputer,4,2.87,Jembrana,2
+23301048,Putu Arya,Ilmu Komputer,6,2.79,Buleleng,2
+23401043,Ketut Adi Saputra,Rekayasa Perangkat Lunak,8,3.89,Bangli,2
+23101045,Luh Utami,Pendidikan Teknik Informatika,8,3.62,Karangasem,2
+23201060,Kadek Wijaya,Sistem Informasi,8,2.73,Bangli,2
+23101046,I Putu Winata,Pendidikan Teknik Informatika,8,3.77,Bangli,2
+23101047,I Wayan Utami,Pendidikan Teknik Informatika,2,3.01,Karangasem,2
+23201061,Desak Pratama,Sistem Informasi,8,3.82,Bangli,2
+23401044,I Gede Saputra,Rekayasa Perangkat Lunak,4,2.8,Denpasar,2
+23301049,Desak Wahyuni,Ilmu Komputer,4,3.87,Bangli,3
+23301050,Komang Dharma,Ilmu Komputer,4,2.83,Tabanan,3
+23401045,I Gede Lestari,Rekayasa Perangkat Lunak,4,3.68,Denpasar,3
+23401046,I Putu Purnama,Rekayasa Perangkat Lunak,8,3.67,Klungkung,3
+23201062,Made Pradnyana,Sistem Informasi,6,3.81,Bangli,3
+23401047,I Putu Kusuma,Rekayasa Perangkat Lunak,2,3.3,Tabanan,3
+23101048,Gede Suryawan,Pendidikan Teknik Informatika,2,3.15,Denpasar,3
+23101049,Kadek Kusuma,Pendidikan Teknik Informatika,8,2.75,Bangli,3
+23201063,Ayu Putra,Sistem Informasi,2,3.53,Denpasar,3
+23101050,Luh Winata,Pendidikan Teknik Informatika,8,3.3,Jembrana,3
+23301051,Gede Mahendra,Ilmu Komputer,8,3.87,Gianyar,3
+23401048,Komang Winata,Rekayasa Perangkat Lunak,8,3.35,Buleleng,3
+23401049,Ni Luh Wijaya,Rekayasa Perangkat Lunak,6,3.97,Denpasar,3
+23301052,Desak Lestari,Ilmu Komputer,2,3.02,Klungkung,3
+23401050,Ni Luh Wahyuni,Rekayasa Perangkat Lunak,4,3.17,Tabanan,3
+23401051,Ketut Utami,Rekayasa Perangkat Lunak,6,3.58,Buleleng,3
+23201064,Gede Saputra,Sistem Informasi,2,3.13,Jembrana,3
+23401052,Made Susanti,Rekayasa Perangkat Lunak,6,3.03,Badung,3
+23401053,Komang Pratama,Rekayasa Perangkat Lunak,4,3.88,Tabanan,3
+23101051,Made Susanti,Pendidikan Teknik Informatika,4,3.47,Denpasar,3
+23201065,Kadek Permana,Sistem Informasi,8,3.53,Bangli,3
+23401054,Ayu Dharma,Rekayasa Perangkat Lunak,2,3.53,Karangasem,3
+23101052,Desak Ardana,Pendidikan Teknik Informatika,2,3.17,Badung,3
+23301053,I Gede Saputra,Ilmu Komputer,8,2.95,Badung,3
+23101053,I Putu Pratama,Pendidikan Teknik Informatika,6,3.79,Denpasar,3
+23401055,Desak Permana,Rekayasa Perangkat Lunak,2,3.55,Badung,3
+23101054,Luh Susanti,Pendidikan Teknik Informatika,4,2.91,Badung,3
+23301054,Putu Kusuma,Ilmu Komputer,2,3.23,Gianyar,3
+23201066,Ni Luh Winata,Sistem Informasi,6,3.67,Klungkung,3
+23401056,I Gede Permana,Rekayasa Perangkat Lunak,4,3.1,Klungkung,3
+23401057,Ni Kadek Pramesti,Rekayasa Perangkat Lunak,6,3.58,Klungkung,3
+23401058,Ni Luh Putra,Rekayasa Perangkat Lunak,8,3.35,Karangasem,3
+23201067,I Putu Pramesti,Sistem Informasi,4,3.83,Buleleng,3
+23401059,Made Purnama,Rekayasa Perangkat Lunak,6,3.42,Denpasar,3
+23101055,Putu Wahyuni,Pendidikan Teknik Informatika,2,3.07,Badung,3
+23301055,Kadek Kusuma,Ilmu Komputer,4,3.77,Denpasar,3
+23101056,Ni Kadek Arya,Pendidikan Teknik Informatika,8,3.84,Buleleng,3
+23401060,Ketut Mahendra,Rekayasa Perangkat Lunak,8,3.35,Gianyar,3
+23201068,Ketut Pratama,Sistem Informasi,6,2.99,Bangli,3
+23201069,Ni Kadek Wijaya,Sistem Informasi,6,3.72,Badung,3
+23401061,I Made Putra,Rekayasa Perangkat Lunak,8,3.6,Badung,3
+23101057,Gede Purnama,Pendidikan Teknik Informatika,8,3.49,Denpasar,3
+23101058,I Made Suryawan,Pendidikan Teknik Informatika,4,3.78,Jembrana,3
+23201070,Putu Winata,Sistem Informasi,8,2.84,Tabanan,3
+23201071,I Gede Putra,Sistem Informasi,2,2.76,Karangasem,3
+23201072,Made Winata,Sistem Informasi,8,2.78,Klungkung,3
+23101059,Luh Permana,Pendidikan Teknik Informatika,2,3.52,Gianyar,3
+23401062,Putu Dharma,Rekayasa Perangkat Lunak,6,3.25,Bangli,3
+23201073,I Gede Pradnyana,Sistem Informasi,8,2.94,Denpasar,3
+23201074,Desak Ardana,Sistem Informasi,2,3.93,Jembrana,3
+23201075,Desak Wahyuni,Sistem Informasi,2,3.2,Klungkung,3
+23401063,I Made Susanti,Rekayasa Perangkat Lunak,6,3.03,Buleleng,3
+23401064,Komang Pratama,Rekayasa Perangkat Lunak,6,3.01,Denpasar,3
+23401065,Gede Pradnyana,Rekayasa Perangkat Lunak,6,2.87,Bangli,3
+23401066,Desak Saputra,Rekayasa Perangkat Lunak,4,3.77,Klungkung,3
+23101060,Putu Purnama,Pendidikan Teknik Informatika,4,3.75,Denpasar,3
+23301056,Putu Kusuma,Ilmu Komputer,2,3.08,Buleleng,3
+23401067,Gede Pramesti,Rekayasa Perangkat Lunak,2,3.11,Tabanan,3
+23101061,Desak Susanti,Pendidikan Teknik Informatika,8,3.03,Gianyar,3
+23301057,Kadek Ardana,Ilmu Komputer,2,3.82,Bangli,3
+23201076,Kadek Wijaya,Sistem Informasi,6,3.26,Karangasem,3
+23401068,Putu Kusuma,Rekayasa Perangkat Lunak,8,3.14,Badung,3
+23101062,Ni Luh Purnama,Pendidikan Teknik Informatika,6,3.89,Jembrana,3
+23301058,Kadek Pratama,Ilmu Komputer,8,2.8,Badung,3
+23101063,Desak Putra,Pendidikan Teknik Informatika,6,2.83,Bangli,3
+23401069,Made Putra,Rekayasa Perangkat Lunak,6,3.28,Karangasem,3
+23401070,I Putu Kusuma,Rekayasa Perangkat Lunak,6,3.28,Bangli,3
+23301059,Luh Utami,Ilmu Komputer,6,3.52,Buleleng,3
+23401071,I Wayan Susanti,Rekayasa Perangkat Lunak,6,3.36,Badung,3
+23101064,I Made Dharma,Pendidikan Teknik Informatika,8,2.74,Denpasar,3
+23201077,I Gede Ardana,Sistem Informasi,6,3.19,Buleleng,3
+23301060,Luh Dharma,Ilmu Komputer,8,3.92,Bangli,3
+23101065,Ni Luh Pratama,Pendidikan Teknik Informatika,4,3.38,Karangasem,3
+23301061,Komang Suryawan,Ilmu Komputer,4,3.94,Buleleng,3
+23101066,Putu Lestari,Pendidikan Teknik Informatika,8,3.37,Jembrana,3
+23201078,I Wayan Suryawan,Sistem Informasi,6,3.61,Gianyar,3
+23301062,Luh Putra,Ilmu Komputer,8,2.96,Badung,3
+23201079,Ayu Pratama,Sistem Informasi,8,2.92,Klungkung,3
+23301063,I Wayan Saputra,Ilmu Komputer,6,3.62,Jembrana,3
+23301064,Desak Putra,Ilmu Komputer,6,3.8,Badung,3
+23201080,Gede Ardana,Sistem Informasi,4,2.86,Gianyar,3
+23101067,Gede Dharma,Pendidikan Teknik Informatika,4,3.72,Buleleng,3
+23301065,Komang Permana,Ilmu Komputer,6,3.3,Jembrana,3
+23301066,I Putu Winata,Ilmu Komputer,2,2.78,Karangasem,3
+23301067,Putu Purnama,Ilmu Komputer,8,3.69,Denpasar,3
+23301068,I Putu Saputra,Ilmu Komputer,2,3.28,Jembrana,3
+23301069,Komang Dharma,Ilmu Komputer,4,3.69,Badung,3
+23101068,Ketut Wahyuni,Pendidikan Teknik Informatika,2,3.77,Jembrana,3
+23301070,I Putu Putra,Ilmu Komputer,4,2.91,Gianyar,3
+23201081,Komang Wahyuni,Sistem Informasi,6,3.79,Tabanan,3
+23101069,I Gede Permana,Pendidikan Teknik Informatika,6,2.86,Tabanan,3
+23101070,Luh Permana,Pendidikan Teknik Informatika,2,3.35,Badung,3
+23301071,Luh Pradnyana,Ilmu Komputer,4,2.92,Bangli,3
+23401072,Ayu Pradnyana,Rekayasa Perangkat Lunak,2,3.76,Buleleng,3
+23201082,I Wayan Mahendra,Sistem Informasi,6,3.54,Karangasem,3
+23101071,Luh Adi Saputra,Pendidikan Teknik Informatika,8,3.85,Jembrana,3
+23401073,Kadek Putra,Rekayasa Perangkat Lunak,8,3.02,Karangasem,3
+23401074,Kadek Kusuma,Rekayasa Perangkat Lunak,2,3.59,Badung,3
+23101072,Ni Luh Utami,Pendidikan Teknik Informatika,8,3.3,Bangli,3
+23101073,Luh Dharma,Pendidikan Teknik Informatika,6,3.81,Bangli,3
+23101074,Putu Ardana,Pendidikan Teknik Informatika,8,2.87,Bangli,4
+23201083,Desak Permana,Sistem Informasi,2,3.11,Klungkung,4
+23301072,I Wayan Suryawan,Ilmu Komputer,8,3.02,Denpasar,4
+23301073,I Made Putra,Ilmu Komputer,8,3.81,Karangasem,4
+23101075,I Gede Lestari,Pendidikan Teknik Informatika,6,3.9,Bangli,4
+23301074,I Gede Lestari,Ilmu Komputer,8,3.98,Klungkung,4
+23201084,Ni Luh Putra,Sistem Informasi,8,2.73,Karangasem,4
+23301075,Desak Kusuma,Ilmu Komputer,4,2.98,Bangli,4
+23101076,I Made Mahendra,Pendidikan Teknik Informatika,6,3.34,Klungkung,4
+23301076,Kadek Permana,Ilmu Komputer,2,3.79,Karangasem,4
+23301077,I Putu Suryawan,Ilmu Komputer,6,3.69,Bangli,4
+23101077,I Made Susanti,Pendidikan Teknik Informatika,2,3.44,Gianyar,4
+23201085,Komang Permana,Sistem Informasi,6,2.79,Jembrana,4
+23301078,Ni Luh Permana,Ilmu Komputer,6,3.76,Denpasar,4
+23401075,I Putu Wijaya,Rekayasa Perangkat Lunak,8,3.18,Bangli,4
+23401076,Desak Ardana,Rekayasa Perangkat Lunak,4,2.96,Jembrana,4
+23301079,Ketut Wahyuni,Ilmu Komputer,2,2.76,Badung,4
+23201086,Putu Saputra,Sistem Informasi,8,3.37,Badung,4
+23101078,Luh Wahyuni,Pendidikan Teknik Informatika,4,3.12,Bangli,4
+23301080,I Putu Susanti,Ilmu Komputer,6,3.47,Jembrana,4
+23101079,Ayu Wahyuni,Pendidikan Teknik Informatika,8,3.61,Tabanan,4
+23301081,Ni Luh Adi Saputra,Ilmu Komputer,6,3.13,Denpasar,4
+23401077,Ketut Pradnyana,Rekayasa Perangkat Lunak,6,3.73,Buleleng,4
+23101080,Luh Purnama,Pendidikan Teknik Informatika,6,3.95,Gianyar,4
+23401078,Putu Mahendra,Rekayasa Perangkat Lunak,8,2.92,Karangasem,4
+23101081,I Putu Arya,Pendidikan Teknik Informatika,2,3.44,Denpasar,4
+23201087,I Gede Adi Saputra,Sistem Informasi,8,3.1,Badung,4
+23401079,Ketut Pramesti,Rekayasa Perangkat Lunak,8,3.35,Klungkung,4
+23401080,Ayu Mahendra,Rekayasa Perangkat Lunak,4,3.37,Jembrana,4
+23401081,Komang Purnama,Rekayasa Perangkat Lunak,8,3.1,Badung,4
+23301082,Ni Luh Permana,Ilmu Komputer,6,3.4,Tabanan,4
+23401082,Luh Purnama,Rekayasa Perangkat Lunak,4,3.93,Tabanan,4
+23401083,Desak Putra,Rekayasa Perangkat Lunak,4,3.91,Tabanan,4
+23101082,Gede Putra,Pendidikan Teknik Informatika,4,3.59,Klungkung,4
+23101083,Komang Purnama,Pendidikan Teknik Informatika,6,3.42,Tabanan,4
+23301083,Kadek Wijaya,Ilmu Komputer,8,3.86,Karangasem,4
+23201088,Ayu Ardana,Sistem Informasi,4,3.07,Tabanan,4
+23301084,Putu Pratama,Ilmu Komputer,6,3.89,Tabanan,4
+23201089,Putu Purnama,Sistem Informasi,4,2.96,Jembrana,4
+23401084,Kadek Permana,Rekayasa Perangkat Lunak,6,2.88,Gianyar,4
+23201090,I Gede Mahendra,Sistem Informasi,4,3.52,Buleleng,4
+23201091,I Wayan Utami,Sistem Informasi,6,3.63,Denpasar,4
+23101084,Made Dharma,Pendidikan Teknik Informatika,2,3.94,Badung,4
+23301085,Ketut Purnama,Ilmu Komputer,8,3.54,Tabanan,4
+23401085,Komang Putra,Rekayasa Perangkat Lunak,2,3.87,Denpasar,4
+23401086,Made Pradnyana,Rekayasa Perangkat Lunak,4,3.39,Buleleng,4
+23401087,Ni Kadek Lestari,Rekayasa Perangkat Lunak,8,3.84,Badung,4
+23101085,Ni Kadek Mahendra,Pendidikan Teknik Informatika,8,3.72,Badung,4
+23101086,Ni Kadek Putra,Pendidikan Teknik Informatika,2,2.71,Denpasar,4
+23101087,Ni Kadek Saputra,Pendidikan Teknik Informatika,6,3.29,Jembrana,4
+23101088,Desak Purnama,Pendidikan Teknik Informatika,4,3.8,Klungkung,4
+23301086,Kadek Pramesti,Ilmu Komputer,2,3.13,Klungkung,4
+23301087,Made Suryawan,Ilmu Komputer,4,2.72,Bangli,4
+23101089,Gede Putra,Pendidikan Teknik Informatika,4,2.93,Karangasem,4
+23401088,Ayu Utami,Rekayasa Perangkat Lunak,6,2.81,Denpasar,4
+23401089,I Putu Dharma,Rekayasa Perangkat Lunak,8,3.12,Gianyar,4
+23201092,I Made Suryawan,Sistem Informasi,8,3.0,Tabanan,4
+23301088,Komang Putra,Ilmu Komputer,2,3.04,Bangli,4
+23201093,Putu Arya,Sistem Informasi,2,3.56,Klungkung,4
+23301089,Kadek Lestari,Ilmu Komputer,8,3.59,Tabanan,4
+23201094,Putu Wijaya,Sistem Informasi,6,3.17,Gianyar,4
+23301090,I Gede Dharma,Ilmu Komputer,8,2.9,Bangli,4
+23401090,Ketut Permana,Rekayasa Perangkat Lunak,8,3.68,Gianyar,4
+23201095,Gede Arya,Sistem Informasi,2,3.38,Jembrana,4
+23401091,Putu Ardana,Rekayasa Perangkat Lunak,2,3.88,Denpasar,4
+23401092,I Made Permana,Rekayasa Perangkat Lunak,4,3.44,Badung,4
+23101090,I Putu Saputra,Pendidikan Teknik Informatika,8,2.85,Gianyar,4
+23201096,Putu Pradnyana,Sistem Informasi,8,2.82,Jembrana,4
+23301091,Ni Luh Mahendra,Ilmu Komputer,8,2.87,Karangasem,4
+23201097,Ni Luh Pradnyana,Sistem Informasi,2,3.42,Tabanan,4
+23301092,Putu Adi Saputra,Ilmu Komputer,8,3.03,Buleleng,4
+23301093,Putu Pramesti,Ilmu Komputer,2,2.76,Bangli,4
+23401093,Putu Pratama,Rekayasa Perangkat Lunak,2,3.91,Denpasar,4
+23401094,Ni Kadek Purnama,Rekayasa Perangkat Lunak,2,3.07,Badung,4
+23301094,Gede Dharma,Ilmu Komputer,8,3.18,Karangasem,4
+23301095,Ni Luh Susanti,Ilmu Komputer,8,2.8,Jembrana,4
+23101091,I Putu Ardana,Pendidikan Teknik Informatika,2,2.93,Jembrana,4
+23101092,Ketut Wahyuni,Pendidikan Teknik Informatika,4,3.64,Gianyar,4
+23201098,Ayu Adi Saputra,Sistem Informasi,2,3.96,Klungkung,4
+23201099,Made Permana,Sistem Informasi,8,3.39,Gianyar,4
+23201100,I Gede Kusuma,Sistem Informasi,6,2.9,Gianyar,4
+23401095,Ni Kadek Wijaya,Rekayasa Perangkat Lunak,2,3.74,Karangasem,4
+23101093,Luh Adi Saputra,Pendidikan Teknik Informatika,4,2.97,Denpasar,4
+23101094,Luh Mahendra,Pendidikan Teknik Informatika,8,3.47,Buleleng,4
+23201101,I Gede Mahendra,Sistem Informasi,8,3.27,Jembrana,4
+23301096,I Gede Mahendra,Ilmu Komputer,4,3.35,Tabanan,4
+23401096,I Gede Pradnyana,Rekayasa Perangkat Lunak,6,3.44,Bangli,4
+23301097,I Gede Putra,Ilmu Komputer,4,3.97,Jembrana,4
+23301098,I Gede Utami,Ilmu Komputer,6,3.05,Jembrana,4
+23401097,Luh Lestari,Rekayasa Perangkat Lunak,8,3.42,Buleleng,4
+23201102,Komang Susanti,Sistem Informasi,6,3.6,Karangasem,4
+23401098,I Putu Putra,Rekayasa Perangkat Lunak,8,2.94,Jembrana,4
+23201103,Ni Luh Arya,Sistem Informasi,4,3.09,Badung,4
+23401099,Gede Kusuma,Rekayasa Perangkat Lunak,2,3.43,Karangasem,4
+23401100,Desak Wahyuni,Rekayasa Perangkat Lunak,4,3.2,Tabanan,4
+23401101,I Gede Saputra,Rekayasa Perangkat Lunak,2,3.89,Bangli,4
+23301099,I Wayan Permana,Ilmu Komputer,4,2.77,Karangasem,4
+23101095,Made Winata,Pendidikan Teknik Informatika,2,3.83,Gianyar,4
+23401102,Gede Pradnyana,Rekayasa Perangkat Lunak,4,3.32,Bangli,4
+23301100,Kadek Adi Saputra,Ilmu Komputer,4,3.91,Denpasar,4
+23101096,Putu Purnama,Pendidikan Teknik Informatika,4,3.6,Gianyar,5
+23301101,Ketut Arya,Ilmu Komputer,6,3.7,Karangasem,5
+23301102,Ni Luh Permana,Ilmu Komputer,6,3.1,Bangli,5
+23401103,Desak Purnama,Rekayasa Perangkat Lunak,8,2.83,Klungkung,5
+23201104,Gede Saputra,Sistem Informasi,4,3.18,Karangasem,5
+23301103,I Made Pradnyana,Ilmu Komputer,4,3.66,Buleleng,5
+23101097,Kadek Permana,Pendidikan Teknik Informatika,8,3.08,Gianyar,5
+23201105,Komang Arya,Sistem Informasi,8,3.44,Gianyar,5
+23201106,Ni Luh Permana,Sistem Informasi,6,3.03,Klungkung,5
+23101098,Putu Purnama,Pendidikan Teknik Informatika,8,2.92,Bangli,5
+23201107,I Putu Dharma,Sistem Informasi,8,2.94,Jembrana,5
+23301104,Made Mahendra,Ilmu Komputer,2,3.78,Denpasar,5
+23201108,Ayu Mahendra,Sistem Informasi,2,3.23,Gianyar,5
+23401104,I Wayan Dharma,Rekayasa Perangkat Lunak,2,2.98,Klungkung,5
+23401105,Komang Mahendra,Rekayasa Perangkat Lunak,8,3.55,Buleleng,5
+23101099,I Made Permana,Pendidikan Teknik Informatika,8,2.72,Jembrana,5
+23401106,Putu Suryawan,Rekayasa Perangkat Lunak,6,2.72,Karangasem,5
+23401107,Gede Lestari,Rekayasa Perangkat Lunak,2,3.88,Jembrana,5
+23201109,I Putu Arya,Sistem Informasi,4,3.5,Tabanan,5
+23401108,Ayu Ardana,Rekayasa Perangkat Lunak,6,3.73,Denpasar,5
+23101100,Komang Susanti,Pendidikan Teknik Informatika,8,3.43,Gianyar,5
+23301105,Kadek Pratama,Ilmu Komputer,2,2.82,Karangasem,5
+23101101,Ketut Permana,Pendidikan Teknik Informatika,8,2.77,Buleleng,5
+23101102,Putu Lestari,Pendidikan Teknik Informatika,2,3.34,Karangasem,5
+23301106,Made Saputra,Ilmu Komputer,2,3.85,Buleleng,5
+23101103,I Gede Pramesti,Pendidikan Teknik Informatika,8,3.05,Denpasar,5
+23301107,Made Suryawan,Ilmu Komputer,2,2.93,Bangli,5
+23201110,I Made Pramesti,Sistem Informasi,4,3.67,Karangasem,5
+23301108,Ni Kadek Pratama,Ilmu Komputer,6,2.91,Gianyar,5
+23301109,Luh Susanti,Ilmu Komputer,6,3.2,Badung,5
+23401109,Gede Pratama,Rekayasa Perangkat Lunak,6,2.77,Karangasem,5
+23201111,I Gede Pratama,Sistem Informasi,6,3.48,Karangasem,5
+23301110,Gede Saputra,Ilmu Komputer,2,3.52,Klungkung,5
+23101104,Ni Luh Arya,Pendidikan Teknik Informatika,6,3.41,Karangasem,5
+23201112,Ketut Lestari,Sistem Informasi,8,2.81,Tabanan,5
+23101105,Gede Arya,Pendidikan Teknik Informatika,2,2.81,Badung,5
+23301111,Ketut Dharma,Ilmu Komputer,8,3.11,Denpasar,5
+23201113,I Wayan Adi Saputra,Sistem Informasi,6,3.27,Tabanan,5
+23301112,I Wayan Dharma,Ilmu Komputer,2,2.94,Klungkung,5
+23101106,Desak Permana,Pendidikan Teknik Informatika,8,2.83,Denpasar,5
+23401110,Komang Permana,Rekayasa Perangkat Lunak,2,3.47,Bangli,5
+23201114,Ayu Susanti,Sistem Informasi,2,3.08,Karangasem,5
+23301113,Gede Pratama,Ilmu Komputer,4,3.44,Badung,5
+23201115,Made Susanti,Sistem Informasi,4,2.88,Tabanan,5
+23401111,Kadek Purnama,Rekayasa Perangkat Lunak,4,2.78,Karangasem,5
+23201116,Kadek Utami,Sistem Informasi,6,3.32,Denpasar,5
+23101107,Komang Suryawan,Pendidikan Teknik Informatika,4,3.63,Klungkung,5
+23201117,Luh Winata,Sistem Informasi,4,3.29,Badung,5
+23401112,Kadek Adi Saputra,Rekayasa Perangkat Lunak,8,3.13,Karangasem,5
+23401113,Gede Saputra,Rekayasa Perangkat Lunak,8,3.13,Badung,5
+23201118,Kadek Saputra,Sistem Informasi,4,3.32,Badung,5
+23401114,Ketut Saputra,Rekayasa Perangkat Lunak,6,3.65,Klungkung,5
+23101108,Luh Arya,Pendidikan Teknik Informatika,6,3.19,Karangasem,5
+23101109,Komang Wijaya,Pendidikan Teknik Informatika,4,3.46,Jembrana,5
+23401115,I Putu Permana,Rekayasa Perangkat Lunak,2,3.93,Klungkung,5
+23201119,Putu Pramesti,Sistem Informasi,8,3.73,Denpasar,5
+23401116,Ayu Utami,Rekayasa Perangkat Lunak,8,2.88,Tabanan,5
+23301114,I Gede Suryawan,Ilmu Komputer,4,3.62,Karangasem,5
+23101110,I Wayan Kusuma,Pendidikan Teknik Informatika,8,3.45,Jembrana,5
+23401117,Desak Utami,Rekayasa Perangkat Lunak,2,3.72,Bangli,5
+23401118,Putu Permana,Rekayasa Perangkat Lunak,2,2.84,Gianyar,5
+23101111,Made Ardana,Pendidikan Teknik Informatika,4,3.53,Buleleng,5
+23401119,Luh Susanti,Rekayasa Perangkat Lunak,6,3.95,Karangasem,5
+23401120,I Wayan Adi Saputra,Rekayasa Perangkat Lunak,2,3.03,Jembrana,5
+23201120,Putu Wahyuni,Sistem Informasi,4,3.28,Karangasem,5
+23301115,Ni Luh Pradnyana,Ilmu Komputer,4,3.15,Buleleng,5
+23201121,Ni Luh Wijaya,Sistem Informasi,6,3.24,Denpasar,5
+23101112,I Wayan Dharma,Pendidikan Teknik Informatika,6,3.1,Klungkung,5
+23201122,Gede Pramesti,Sistem Informasi,8,3.15,Denpasar,5
+23401121,Ni Luh Kusuma,Rekayasa Perangkat Lunak,6,2.79,Buleleng,5
+23301116,Gede Wijaya,Ilmu Komputer,2,3.8,Denpasar,5
+23301117,Made Lestari,Ilmu Komputer,4,3.37,Jembrana,5
+23301118,I Putu Saputra,Ilmu Komputer,8,3.94,Gianyar,5
+23101113,Gede Susanti,Pendidikan Teknik Informatika,4,2.94,Karangasem,5
+23301119,Ketut Adi Saputra,Ilmu Komputer,4,3.28,Karangasem,5
+23101114,Ketut Adi Saputra,Pendidikan Teknik Informatika,4,2.97,Denpasar,5
+23301120,Luh Wijaya,Ilmu Komputer,4,3.17,Gianyar,5
+23301121,Ni Luh Wijaya,Ilmu Komputer,6,3.57,Klungkung,5
+23101115,Desak Saputra,Pendidikan Teknik Informatika,8,3.49,Denpasar,5
+23101116,Komang Ardana,Pendidikan Teknik Informatika,8,3.5,Tabanan,5
+23101117,Ni Kadek Winata,Pendidikan Teknik Informatika,2,3.57,Bangli,5
+23101118,I Wayan Arya,Pendidikan Teknik Informatika,6,2.85,Bangli,5
+23101119,Putu Dharma,Pendidikan Teknik Informatika,8,3.24,Badung,5
+23201123,Luh Susanti,Sistem Informasi,8,2.94,Jembrana,5
+23301122,Putu Lestari,Ilmu Komputer,4,3.33,Badung,5
+23101120,I Putu Saputra,Pendidikan Teknik Informatika,8,3.5,Bangli,5
+23301123,I Made Purnama,Ilmu Komputer,4,2.95,Karangasem,5
+23401122,Desak Wahyuni,Rekayasa Perangkat Lunak,8,3.23,Klungkung,5
+23401123,Ketut Kusuma,Rekayasa Perangkat Lunak,8,2.92,Buleleng,5
+23301124,Gede Arya,Ilmu Komputer,6,2.74,Gianyar,5
+23101121,Desak Putra,Pendidikan Teknik Informatika,4,3.71,Klungkung,5
+23401124,Desak Wahyuni,Rekayasa Perangkat Lunak,2,3.44,Tabanan,5
+23101122,Gede Permana,Pendidikan Teknik Informatika,6,3.4,Buleleng,5
+23101123,Gede Kusuma,Pendidikan Teknik Informatika,4,3.98,Denpasar,5
+23201124,Putu Arya,Sistem Informasi,6,3.83,Buleleng,5
+23201125,Ni Luh Suryawan,Sistem Informasi,6,3.81,Denpasar,5
+23401125,Ni Luh Wijaya,Rekayasa Perangkat Lunak,4,2.97,Bangli,5
+23101124,Ayu Winata,Pendidikan Teknik Informatika,8,2.91,Badung,5
+23101125,Gede Pramesti,Pendidikan Teknik Informatika,4,3.74,Bangli,5
+23301125,Desak Suryawan,Ilmu Komputer,4,3.12,Tabanan,5
